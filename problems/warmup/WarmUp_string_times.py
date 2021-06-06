@@ -1,5 +1,6 @@
 '''
-Given a string and a non-negative int n, return a larger string that is n copies of the original string.
+Given a string and a non-negative int n,
+return a larger string that is n copies of the original string.
 
 
 string_times('Hi', 2) → 'HiHi'
