@@ -6,5 +6,5 @@
 *you can use any IDE or simple Notepad that you are comfortable with*
 3. [configure python](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html) *this is optional*
 4. write your first Python program
-5. Hello Python! [code: HelloPython.py](https://github.com/failedpeanut/python/blob/main/day1/HelloPython.py)
-6. Write your first function which prints your name.[code: FirstFunction.py](https://github.com/failedpeanut/python/blob/main/day1/FirstFunction.py)
+5. Hello Python! [HelloPython.py](https://github.com/failedpeanut/python/blob/main/day1/HelloPython.py)
+6. Write your first function which prints your name.[FirstFunction.py](https://github.com/failedpeanut/python/blob/main/day1/FirstFunction.py)
