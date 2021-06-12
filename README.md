@@ -8,3 +8,4 @@
 4. write your first Python program
 5. Hello Python! [HelloPython.py](https://github.com/failedpeanut/python/blob/main/day1/HelloPython.py)
 6. Write your first function which prints your name.[FirstFunction.py](https://github.com/failedpeanut/python/blob/main/day1/FirstFunction.py)
+7. Control Flow Tools : if,elif,else, for, range(), break, continue, while, pass [ControlFlow.py](https://github.com/failedpeanut/python/blob/main/day1/ControlFlow.py)
