@@ -65,5 +65,20 @@ print(myTuple)#Output:('Tuple_failedPeanut', 'Tuple_how I learnt Python', 10, 20
 print(myString)#Output:Example of Strings
 print("----------Iterate elements Ends----------")
 ###########################################################
-
-
+print("----------Reversing elements Starts----------")
+print(myList[::-1])#Output:[False, 1.0, 3, 2, 1, 'List_how I learnt Python', 'List_failedPeanut']
+print(myTuple[::-1])#Output:(True, 2.0, 30, 20, 10, 'Tuple_how I learnt Python', 'Tuple_failedPeanut')
+print(myString[::-1])#Output: gnirtS fo elpmaxE
+'''
+[begin_index:end_index:step] - by leaving begin_index and end_index off and specifying a step of -1, it reverses.
+'''
+print(myList[0:6:2])#Output: ['List_failedPeanut', 1, 3]
+'''
+Our List:             ["List_failedPeanut","List_how I learnt Python",1,2,3,1.0,False]
+specifying each index:           0        ,            1             ,2,3,4, 5 ,   6 
+[0:6:2] : This will start at index 0 (0 included), end at index 6 (6 excluded),skipping every 2nd element
+'''
+print(myList[-1:0:-2])#Output: [False, 3, 1]
+#begin_index=-1,end_index=0,step=-2
+print("----------Reversing elements Ends----------")
+###########################################################
