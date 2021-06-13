@@ -274,3 +274,46 @@ print(lst) #O/P:['German is spoken', 'in Germany,', 'Austria', 'and', 'Switzerla
 
 #cant use insert method with string and tuple
 ###################################
+#clear() method of list
+lst = ["German is spoken", "in Germany,", "Austria", "Switzerland"]
+print(lst)#OutPut:['German is spoken', 'in Germany,', 'Austria', 'Switzerland']
+lst.clear()
+print(lst)#OutPut:[]
+
+#No this method is not is String or tuple
+######################################################################
+#count()
+lst = ["German is spoken", "in Germany,", "Austria", "Switzerland","in Germany,"]
+print(lst.count('in Germany,'))#Output:2
+print(lst.count('A'))#Output:0
+#print(lst.count())#Output:count() takes exactly one argument (0 given)
+
+tuple=(1,2,3,4,5,6,6,7,5,9)
+print(tuple.count(6))#Output:2
+
+#cant use this with string
+######################################################################
+#reverse()
+tuple=(1,2,3,4,5,6,6,7,5,9)
+#print(tuple.reverse())#Output:'tuple' object has no attribute 'reverse'
+list=[1,2,3,4,5,6,6,7,5,9]
+print(list.reverse())#Output:None since the method wont return anything it just revese the existing list
+print(list)#Output: [9, 5, 7, 6, 6, 5, 4, 3, 2, 1]
+
+#reverse() cant be used to string, since its list method
+######################################################################
+#sort()
+list=[1,2,3,4,5,6,6,7,5,9]
+list.sort()
+print(list)#Output:[1, 2, 3, 4, 5, 5, 6, 6, 7, 9]
+
+list.sort(reverse=True)#sort in reverse order
+print(list)#Output:[9, 7, 6, 6, 5, 5, 4, 3, 2, 1]
+
+listofStrings=["blah","another blah","z blah","o blah"]
+listofStrings.sort()
+print(listofStrings)#Output:['another blah', 'blah', 'o blah', 'z blah']
+
+######################################################################
+
+
