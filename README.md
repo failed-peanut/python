@@ -13,4 +13,4 @@
 
 ## DAY-2.
 1. Data Types I learnt *string, int , float* [DataTypes.py](https://github.com/failedpeanut/Python/blob/main/day2/DataTypes.py)
-2. 
+2. Some methods that I should know in *string, list , tuple* [ListTupleString.py](https://github.com/failedpeanut/Python/blob/main/day2/ListTupleString.py)
